@@ -1,0 +1,39 @@
+.footer{
+  background-color: aqua;
+}
+.footer ul {
+    
+    height: 5rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    font-style: normal;
+    color: black;
+  }
+  
+  .footer-items {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .footer i {
+    margin-right: 20px;
+    color: rgb(29, 28, 24);
+
+
+  }
+  
+  .footer a {
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    text-decoration: blueviolet;
+    color: var(--font-color);
+  }
+  

@@ -1,0 +1,75 @@
+
+body {
+    background:rgb(190, 234, 252);
+    
+}
+
+.wrap{
+    
+    width:800px;
+    margin:auto;
+    background:rgb(160, 182, 211);
+    margin-top:50px auto;
+    padding: 15px;
+    border-radius:15px;
+    border: 2px solid rgb(137, 115, 235);    
+}
+
+h2{
+   text-align:center ; 
+   background:rgb(72, 98, 243);
+   color:white;
+   border-radius:15px;
+   padding:30px;
+   font-size: 25px;   
+}
+
+input{
+    padding:10px;,
+    margin:5px;
+    border:none;
+    border-radius:5px;
+    background:white;
+    font-size:18px;
+    color:black;
+    
+}
+input[type=text],
+input[type=email],input[type=number],
+
+
+input[type=password]
+
+{
+    
+    width:90%;
+    padding:30px;
+    margin:5px;
+    border-radius: 10px;
+}
+
+input[type=submit]
+{
+    
+    width: 100%;
+    background:rgb(72, 98, 243);
+    font-weight:50px;
+    font-size:25px;
+    color:rgb(247, 241, 241);
+    cursor:pointer ;
+    
+}
+input[type=submit]:hover{
+   color:white; 
+   background:green;
+   font-size: 25px;
+    
+    
+}
+
+select{
+    
+    width:50%;
+    border-radius:5px;
+    padding:10px;
+}
